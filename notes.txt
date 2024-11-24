@@ -4,12 +4,40 @@ Toby Dussek - Framework Training
 
 November 25-27
 
-Monday
+ 9:30 start
+11:00 coffee
+12:30 lunch
+ 3:00 Tea
+ 4:30 end
 
+Monday
+- welcome and tech-check
+- introducing NodeJs
+- overview of the course, exerises etc.
+- servers and files
+- cli
+- async-await and promises
+- the fetch API
+- review exercise
 
 Tuesday
-
+- quick summary of where we're at
+- modules, package.json and npm
+- ways to import and export
+- architecture best/common practices
+- debugging with Chrome dev tools
+- async operation debugging
+- unit testing
+- test-driven development and robust coding
+- review exercises
 
 Wednesday
+- the run loop
+- Node events
+- responding to events and handling errors
+- Express.js for convenient server-side features
+- Express architecture: serrver, index, middleware
+- buffers and streams
+- review exercises
 
 
