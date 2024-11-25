@@ -16,9 +16,10 @@ const fnC = x => x*x // if there is only one statement, we can leave out {} and 
 // what happens when things go wrong
 // we may execute like this:
 // node --stack-trace-limit=10 01_basics.js
+// node --watch 01_basics.js // this will keep running every time we save changes (until ctrl-c)
 const run = (n)=>{
     if (n==0) {
-        throw new Error('We reached Zero, hence this error')
+        // throw new Error('We reached Zero, hence this error')
     }
     // otherwise call this function
     run(n-1)
