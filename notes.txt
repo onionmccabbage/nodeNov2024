@@ -1,7 +1,7 @@
-NodeJs Introduction
+NodeJS Introduction
+===================
 
 Toby Dussek - Framework Training
-
 November 25-27
 
  9:30 start
@@ -12,9 +12,12 @@ November 25-27
 
 Monday
 - welcome and tech-check
+- visual studio code: pick a folder, and open it is vsc
 - introducing NodeJs
 - overview of the course, exerises etc.
-- servers and files
+- course repo (all my code will be here)
+  https://github.com/onionmccabbage/nodeNov2024/blob/main/notes.txt
+- servers and files (microservices)
 - cli
 - async-await and promises
 - the fetch API
@@ -26,6 +29,7 @@ Tuesday
 - ways to import and export
 - architecture best/common practices
 - debugging with Chrome dev tools
+- dev/prod and tool-chains
 - async operation debugging
 - unit testing
 - test-driven development and robust coding
@@ -39,5 +43,7 @@ Wednesday
 - Express architecture: serrver, index, middleware
 - buffers and streams
 - review exercises
+
+end of course feedback
 
 
