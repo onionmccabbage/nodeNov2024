@@ -11,13 +11,16 @@ November 25-27
  4:30 end
 
 Monday
-- welcome and tech-check
-- visual studio code: pick a folder, and open it is vsc
-- introducing NodeJs
-- overview of the course, exercises etc.
-- course repo (all my code will be here)
+> welcome and tech-check
+> visual studio code: pick a folder, and open it is vsc
+- introducing NodeJS
+> overview of the course, exercises etc.
+> course repo (all my code will be here)
   https://github.com/onionmccabbage/nodeNov2024/blob/main/
 - servers and files (microservices)
+- the Noe REPL
+  - type node in a terminal to start the REPL (end with ctrl-c twice)
+  - tab-tab for code help
 - cli
 - async-await and promises
 - commonJS and ESM...
