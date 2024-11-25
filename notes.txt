@@ -6,7 +6,7 @@ November 25-27
 
  9:30 start
 11:00 coffee
-12:30 lunch
+12:30 lunch until 1:30
  3:00 Tea
  4:30 end
 
@@ -23,8 +23,8 @@ Monday
   - tab-tab for code help
 > carry our exercise01 for 20mins (until 11:45)
  > then show-and-tell
-- cli
-- Make a package.json:
+> cli
+> Make a package.json:
   - nmp init -y makes a deflait package.json
   - npm init talks us through
 - async-await and promises
