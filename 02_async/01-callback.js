@@ -9,20 +9,20 @@
 
 // ES6-
 
-const fs = require("node:fs");
+import { readFile } from "node:fs";
 
 // CALLBACK HELL!!!!
-fs.readFile("user.json", "utf8", (error, userString) => {
+readFile("user.json", "utf8", (error, userString) => {
 	if (error) {
 		console.log(error)
 		return
 	}
-	fs.readFile("regions.json", "utf8", (error, regionsString) => {
+	readFile("regions.json", "utf8", (error, regionsString) => {
 		if (error) {
 			console.log(error)
 			return
 		}
-		fs.readFile("news.json", "utf8", (error, newsString) => {
+		readFile("news.json", "utf8", (error, newsString) => {
 			if (error) {
 				console.log(error)
 				return
