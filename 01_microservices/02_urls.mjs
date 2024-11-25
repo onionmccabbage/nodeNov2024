@@ -10,7 +10,19 @@ const server = createServer( (req, res)=>{ // request and response objects
     // explore sending html
     // explore routing (conditional responses)
     console.log( req.url ) // url is the path
-
+    // act acording to the path
+    if (req.url == '/'){ // the home route
+        res.writeHead(200, {'Content-Type':'text/html'})
+        res.write('<h3>Home Page</h3>')
+    }
+    else if (req.url == '/about'){ // the about route
+        res.writeHead(200, {'Content-Type':'text/html'})
+        res.write('<h3>About this website...</h3>')
+    }    
+    else { // all other routes
+        res.writeHead(200, {'Content-Type':'text/html'})
+        res.write('<h3>404 Not Found</h3>')
+    }
     res.end('message from microservice') // send anything we like
 } )
 
