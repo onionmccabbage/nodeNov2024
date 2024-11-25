@@ -33,3 +33,8 @@ server.listen(port, hostName, ()=>{
 })
 
 // use a browser to visit 127.0.0.1:3000
+
+// here is a simple way to make this file into anESM module
+// export default {} // quick and dirty, not recomended
+// nb we absolutely SHOULD do like this....
+// export default server 
