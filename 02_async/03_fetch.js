@@ -25,6 +25,9 @@ const getJson = async (url)=>{
 }
 const main = async ()=>{
     const myUrl = 'https://api.github.com/users'
+    // const myUrl = 'http://jsonplaceholder.typicode.com/photos'
     const githubData = await getJson(myUrl)
     console.log(githubData)
 }
+
+main()
