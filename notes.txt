@@ -21,6 +21,7 @@ Monday
 - cli
 - async-await and promises
 - commonJS and ESM...
+- .js, .mjs etc also package.json
 - the fetch API
 - review exercise
 
