@@ -14,30 +14,42 @@ const fs = require("node:fs/promises")
 // import * as regionsData from './regions.json'
 // import * as newsData from './news.json'
 const userData = fs.readFile("user.json", "utf8").then(userString => {
-	const userData = JSON.parse(userString)
-	return userData
+    const userData = JSON.parse(userString)
+    return userData
 })
 
 const regionsData = fs.readFile("regions.json", "utf8").then(regionsString => {
-	const regionsData = JSON.parse(regionsString)
-	return regionsData
+    const regionsData = JSON.parse(regionsString)
+    return regionsData
 })
 
 const newsData = fs.readFile("news.json", "utf8").then(newsString => {
-	const newsData = JSON.parse(newsString)
-	return newsData
+    const newsData = JSON.parse(newsString)
+    return newsData
 })
 // make a Promise derived from multiple streams of data (an array)
-Promise.all([userData, regionsData, newsData]).then( ([userData, regionsData, newsData])=>{ // Promises are thenable
-    newsData.forEach( (news)=>{
+Promise.all([userData, regionsData, newsData]).then(([userData, regionsData, newsData]) => { // Promises are thenable
+    newsData.forEach((news) => {
         console.log(news.headline)
         console.log(news.content)
         console.log('\n')
 
-    } )
-} ).catch( (error)=>{
+    })
+}).catch((error) => {
     console.log(error)
-} )
+})
 
-    
+Promise.allSettled([userData, regionsData, newsData]).then((data) => {
+    console.log(data.every((data) => {return data.status === 'fulfilled'}))
+    data.forEach(result => {
+        if (result.status === "fulfilled") {
+            console.log(result.value)
+        } else {
+            console.log(result.reason)
+        }
+    })
+}).catch((error) => {
+    console.log(error)
+})
+
 
