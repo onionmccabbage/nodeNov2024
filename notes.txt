@@ -18,10 +18,15 @@ Monday
 > course repo (all my code will be here)
   https://github.com/onionmccabbage/nodeNov2024/blob/main/
 - servers and files (microservices)
-- the Noe REPL
+> the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
+> carry our exercise01 for 20mins (until 11:45)
+ > then show-and-tell
 - cli
+- Make a package.json:
+  - nmp init -y makes a deflait package.json
+  - npm init talks us through
 - async-await and promises
 - commonJS and ESM...
 - .js, .mjs etc also package.json

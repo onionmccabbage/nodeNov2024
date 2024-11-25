@@ -1,5 +1,6 @@
 // we can grab bits of Node to use in our own code (Node standard library)
 import { createServer } from 'http' // this is ESM - an ES Module
+// import * as http from 'http'
 
 // some handy config data
 const hostName = '127.0.0.1'
