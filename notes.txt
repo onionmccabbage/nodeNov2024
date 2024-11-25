@@ -20,6 +20,7 @@ Monday
 - servers and files (microservices)
 - cli
 - async-await and promises
+- commonJS and ESM...
 - the fetch API
 - review exercise
 
