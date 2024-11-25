@@ -28,9 +28,9 @@ Monday
   - nmp init -y makes a deflait package.json
   - npm init talks us through
 > async-await and promises
-- commonJS and ESM...
-to do: fix Promises to use ESM
-- .js, .mjs etc also package.json
+- commonJS (require)  and ESM (import)
+> fixed Promises to use ESM
+> .js, .mjs etc also package.json
 > the fetch API
 > review exercise
 
