@@ -1,5 +1,5 @@
 **Exercise: Web Crawler**
-20 mins -> tea break then 3:15 for 40 mins (1hr)
+Continue until 3:50 (1hr plus break)
 You're tasked to write a simple web crawler that fetches information from a public API and then fetches further data based on the initial fetch.
 
 1. Use the `swapi.dev` API. First, fetch a random person (`https://swapi.dev/api/people/{random_id}`).
