@@ -14,9 +14,9 @@ Monday
 - welcome and tech-check
 - visual studio code: pick a folder, and open it is vsc
 - introducing NodeJs
-- overview of the course, exerises etc.
+- overview of the course, exercises etc.
 - course repo (all my code will be here)
-  https://github.com/onionmccabbage/nodeNov2024/blob/main/notes.txt
+  https://github.com/onionmccabbage/nodeNov2024/blob/main/
 - servers and files (microservices)
 - cli
 - async-await and promises
