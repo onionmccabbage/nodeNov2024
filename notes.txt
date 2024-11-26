@@ -38,18 +38,22 @@ Tuesday
 > quick summary of where we're at
 > modules, package.json and npm
 > ways to import and export
-- architecture best/common practices
+> architecture best/common practices
 > debugging with Chrome dev tools
-- dev/prod and tool-chains
+> dev/prod and tool-chains
 > async operation debugging
 > write scripts in package.json to begin debug: node --inspect-brk calc.js
 > unit testing
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
 > test-driven development and robust coding
-- ES features
+> ES features
 - Typescript is important...
-- review exercises
+  npm install -g tsc // the typescript compiler
+  npm install -g ts-node // to 'run' ts files (actually runs the js file)
+  also see tsconfig.json
+  https://typescriptlang.org
+> review exercises
 
 Wednesday
 - the run loop
