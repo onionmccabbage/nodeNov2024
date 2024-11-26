@@ -8,5 +8,11 @@ describe("Check addition of two numbers",()=>{
         expect(result).toBe(5)
     })
     // write a test to confirm they must both be numeric
-    // expect .toThrow()
+    test('should throw exception ...', ()=>{
+        // why do we need a call-back?
+        expect(add(1,2)).toBe(3) // ok
+        expect(()=>{add("a", "b")}).toThrow()
+        expect(()=>{add(3, "b")}).toThrow()
+        expect(()=>{add("a", 3)}).toThrow()
+    })
 })
