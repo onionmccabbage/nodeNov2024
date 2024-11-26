@@ -39,9 +39,10 @@ Tuesday
 > modules, package.json and npm
 > ways to import and export
 - architecture best/common practices
-- debugging with Chrome dev tools
+> debugging with Chrome dev tools
 - dev/prod and tool-chains
-- async operation debugging
+> async operation debugging
+> write scripts in package.json to begin debug: node --inspect-brk calc.js
 - unit testing
 - test-driven development and robust coding
 - review exercises
