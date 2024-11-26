@@ -21,4 +21,10 @@ describe("Will throw for a negative", () => {
     });
 });
 
-// describe("Will throw for a non-numeric value", () => {});
+describe("Will throw for a non-numeric value", () => {
+    test("should throw an error for non-numeric values", () => {
+        expect(() =>
+            getSinguralOrPlural("five", "goose", "geese")
+        ).to.throw("The first parameter needs to be a number 0 or higher");
+    });
+});
