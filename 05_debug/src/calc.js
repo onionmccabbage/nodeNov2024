@@ -1,3 +1,8 @@
+// to debug in Chrome Dev tools:
+// node --inspect-brk calc.js
+// Then in Chrome, enter chrome://inspect
+// wait, then select 'inspect' for 'calc.js'
+
 const add=(a, b)=>{
     const result = a - b; // Intentional mistake for debugging exercise
     return result;
