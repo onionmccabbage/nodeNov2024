@@ -6,6 +6,19 @@ export const goodbye = (name)=>{
     return `Goodbye ${name}`
 }
 
+export function add(a, b) {
+	return a + b;
+}
+
+export function subtract(a, b) {
+	return a - b;
+}
+
+export function multiply(a, b) {
+	return a * b;
+}
+
+
 // explore JavaScript Object Notation (and JavaScript Objects)
 const obj = {'n':'Ethel', 'a':42, 'admin':false} // this is a JavaScript Object
 const obj_j = JSON.stringify(obj)

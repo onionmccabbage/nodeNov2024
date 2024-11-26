@@ -35,9 +35,9 @@ Monday
 > review exercise
 
 Tuesday
-- quick summary of where we're at
-- modules, package.json and npm
-- ways to import and export
+> quick summary of where we're at
+> modules, package.json and npm
+> ways to import and export
 - architecture best/common practices
 - debugging with Chrome dev tools
 - dev/prod and tool-chains
