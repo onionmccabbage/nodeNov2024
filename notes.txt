@@ -43,10 +43,13 @@ Tuesday
 - dev/prod and tool-chains
 > async operation debugging
 > write scripts in package.json to begin debug: node --inspect-brk calc.js
-- unit testing
-- test-driven development and robust coding
-- review exercises
+> unit testing
+  https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
+  https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
+> test-driven development and robust coding
+- ES features
 - Typescript is important...
+- review exercises
 
 Wednesday
 - the run loop

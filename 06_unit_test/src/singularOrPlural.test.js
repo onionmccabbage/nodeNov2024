@@ -19,7 +19,7 @@ describe("Will throw for a negative", () => {
             "The first parameter needs to be a number 0 or higher"
         );
     });
-});
+}); 
 
 describe("Will throw for a non-numeric value", () => {
     test("should throw an error for non-numeric values", () => {
