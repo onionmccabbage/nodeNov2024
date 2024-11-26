@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "dev":"node --watch index.js",
+        "prod":"node index.js"
+    },
+    "dependencies": {
+        "pino": "^9.5.0",
+        "vitest": "^2.1.6"
+    }
+}

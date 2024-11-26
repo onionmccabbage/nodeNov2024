@@ -1,5 +1,4 @@
-1hr plus 15 min break at 3:05-3:20
-So we're done at 3:50
+1hr plus 15 min break at 3:00-3:15
 
 Continue the photo fetch project
 - set up some scripts for prod and dev (dev will --watch)
@@ -13,7 +12,6 @@ Client-Server
 
 Logging and Faults
 - use pino to log problems to a file. Decide when to log warn, info or error
-  (remember to npm install pino)
 
 Optional
 - use debug tools (in VSCode or in Chrome Dev Tools)
