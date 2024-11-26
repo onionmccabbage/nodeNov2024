@@ -45,13 +45,14 @@ Tuesday
 - unit testing
 - test-driven development and robust coding
 - review exercises
+- Typescript is important...
 
 Wednesday
 - the run loop
 - Node events
 - responding to events and handling errors
 - Express.js for convenient server-side features
-- Express architecture: serrver, index, middleware
+- Express architecture: server, index, middleware
 - buffers and streams
 - review exercises
 
