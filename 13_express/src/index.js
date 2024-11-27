@@ -8,9 +8,14 @@ const app = express() // we nopw have a full-fat web server
 app.use(express.json()) // we may need to read JSON from request body
 
 // make some routes
-app.get('/', (res, req)=>{
+app.get('/', (req, res)=>{ // request, response
     res.send({message:'Welcome to Express'})
 })
+// challenge - a route that returns a name
+app.get('/ethel', (req, res)=>{ // request, response
+    res.send({message:'Greetings Ethel'})
+})
+
 app.use(error)
 
 // start the server
