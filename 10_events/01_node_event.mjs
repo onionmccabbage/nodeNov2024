@@ -1,6 +1,6 @@
 import {EventEmitter} from 'events'
-import {add, subtract, multiply} from 'util.js'
-
+// we need the ./ for this import
+import {add, subtract, multiply} from './util.mjs'
 
 // we need an instance of the event emmiter
 const myEmitter = new EventEmitter()
