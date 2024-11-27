@@ -18,7 +18,7 @@ const testData:string[] = [ // probably dynamically generated options
 ]
 
 // check for a match
-//               testData      whatever the useer typed
+//               testData      whatever the user typed
 const suggest = (arr:string[], query:string):string[]=>{
     return arr.filter( (item)=>{
         return query.length>0 && item.startsWith(query)

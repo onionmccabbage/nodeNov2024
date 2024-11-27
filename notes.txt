@@ -60,11 +60,11 @@ Naming assets (files. folder, variables, functions)
 - dont start with a digit
 
 Wednesday
-- the run loop
-- Node events
+> the event loop
+> Node events
   fix removeListener
-- Web and webpack
-- Observables see https://rxjs.dev and https://rxmarbles.com/
+> Web and webpack
+> Observables see https://rxjs.dev and https://rxmarbles.com/
 - responding to events and handling errors
 
 - Express.js for convenient server-side features
