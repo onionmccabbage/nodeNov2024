@@ -1,5 +1,8 @@
-Continue with the Express project - make use of the documentation e.g. https://expressjs.com/en/guide/routing.html
+Continue with the Express project 
+- make use of the documentation e.g. https://expressjs.com/en/guide/routing.html
+
 Build routes to return '/about' and '/contact' content (just simple content will do)
+
 Catch the routes '/greet' and '/welcome' with the same content response
 Build 404 content for missing routes
 Put some text content into a file. Build a '/read' route that will read the text and return it to the user. (You could use 'next' for this)
@@ -13,8 +16,8 @@ Remember to use automation when it helps
 If Time
 -------
 Build routes that call your earlier project work
-'/users.:id' to retrieve a user from https://jsonplaceholder.typicode.com/users/:id
-'/photos.:id' to retrieve a user from https://jsonplaceholder.typicode.com/photos/:id
+'/users/:id' to retrieve a user from https://jsonplaceholder.typicode.com/users/:id
+'/photos/:id' to retrieve a user from https://jsonplaceholder.typicode.com/photos/:id
 These would call your other microservices to carry out the functionality
 
 Optional
