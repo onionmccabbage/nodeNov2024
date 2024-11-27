@@ -64,7 +64,7 @@ Wednesday
 - Node events
   fix removeListener
 - Web and webpack
-  fix import user
+- Observables see https://rxjs.dev and https://rxmarbles.com/
 - responding to events and handling errors
 
 - Express.js for convenient server-side features
