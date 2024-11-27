@@ -10,9 +10,11 @@ import {fromEvent, map, tap, debounceTime} from 'rxjs'
 const testData:string[] = [ // probably dynamically generated options
     'people',
     'planets',
+    'priscilla',
     'species',
     'vehicles',
-    'starships'
+    'starships',
+    'scotland'
 ]
 
 // check for a match
@@ -45,7 +47,7 @@ const results:HTMLUListElement = document.querySelector('#results') as HTMLUList
 // we can make an observable (a subject)
 // by convention use a trailing $ to indicate a data-stream (an observable)
 const keyStream$ = fromEvent(searchBox, 'keyup').pipe( // much like .then
-    // we now hav a subject/observable
+    // we now have a subject/observable
     debounceTime(500), // wait until the user stops typing for 500 ms
     map( (event)=>{
         const input = event.target as HTMLInputElement // where did the event come from
@@ -73,9 +75,9 @@ const sub99 = keyStream$.subscribe( (r)=>{
 
 const subscribers = []
 
-for(let _=0;_<7;_++){
-    const ns = keyStream$.subscribe( ()=>{} )
-    subscribers.push(ns)
-}
+// for(let _=0;_<7;_++){
+//     const ns = keyStream$.subscribe( ()=>{} )
+//     subscribers.push(ns)
+// }
 
 sub99.unsubscribe() // always good to destroy when we no longer need
