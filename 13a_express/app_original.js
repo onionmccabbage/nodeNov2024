@@ -27,59 +27,31 @@ const cb0 = function (req, res, next) {
   console.log('CB0')
   next()
 }
+
 const cb1 = function (req, res, next) {
   console.log('CB1')
   next()
 }
-const cb2 = function (req, res) {
-  res.send('Hello from C!')
-}
-app.get('/example/c', [cb0, cb1, cb2])
-// simple routes
-app.get('/about', (req, res) => {
-  res.send('<h2>About Us...</h3>')
-})
-app.get('/contact', (req, res) => {
-  res.send('<h2>Please use carrier pigeon to contact our agents</h3>')
-})
-const greetWelcome = (req, res) => {
-  res.send('<h4>A Welcome Greeting</h4>')
-}
-// multi routes 
-app.get('/greet','/welcome', greetWelcome)
 
 // passing URL parameters
 app.get('/users/:userId/books/:bookId', (req, res) => {
   res.send(req.params)
 })
 
-// read JSON and return it
-const fs = require("node:fs");
-let dataRetrieved = ''
-app.get('/regions', (req, res, next) => {
-  // read in the JSON
-  fs.readFile("./data/regions.json", "utf8", (error, data) => {
-    console.log(data)
-    if (error) {
-      console.log(error)
-      return
-    }
-    dataRetrieved = data
-  }), next()
-},
-  // return the JSON to the request client
-  (req, res) => {
-    res.send(dataRetrieved)
-  }
-)
+const cb2 = function (req, res) {
+  res.send('Hello from C!')
+}
+
+app.get('/example/c', [cb0, cb1, cb2])
+
 
 // catch 404 and forward to error handler
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function (err, req, res, next) {
+app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

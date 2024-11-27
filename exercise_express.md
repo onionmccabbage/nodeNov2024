@@ -1,3 +1,5 @@
+continue until 3:25
+
 Continue with the Express project 
 - make use of the documentation e.g. https://expressjs.com/en/guide/routing.html
 
@@ -34,4 +36,4 @@ Further Optional
 ----------------
 Write a generator to yield URLs in sequence
 (e.g. bbc.co.uk, duckduckgo.com, gov.uk/government/organisations/companies-house)
-Use tis generator to iteratively populate an HTML <nav> menu of hyperlinks
+Use this generator to iteratively populate an HTML <nav> menu of hyperlinks

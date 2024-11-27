@@ -8,16 +8,16 @@ const seqEmitter = new EventEmitter()
 seqEmitter.on('sequential', ()=>{
     console.log('first listener')
 })
-seqEmitter.on('sequential', ()=>{
+
+const fnTwo = ()=>{
     console.log('second listener')
-})
+}
+seqEmitter.on('sequential', fnTwo)
 seqEmitter.on('sequential', ()=>{
     console.log('third listener')
 })
 
 // we may choose to remove event listeners
-seqEmitter.removeListener('sequential', ()=>{
-    console.log('second listener')
-})
+seqEmitter.removeListener('sequential', fnTwo)
 
 seqEmitter.emit('sequential') // trigger all three listeners, in order
