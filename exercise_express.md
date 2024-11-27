@@ -1,4 +1,4 @@
-Continue with the Express project
+Continue with the Express project - make use of the documentation e.g. https://expressjs.com/en/guide/routing.html
 Build routes to return '/about' and '/contact' content (just simple content will do)
 Catch the routes '/greet' and '/welcome' with the same content response
 Build 404 content for missing routes
