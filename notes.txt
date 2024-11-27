@@ -63,7 +63,10 @@ Wednesday
 - the run loop
 - Node events
   fix removeListener
+- Web and webpack
+  fix import user
 - responding to events and handling errors
+
 - Express.js for convenient server-side features
 - Express architecture: server, index, middleware
 - buffers and streams
