@@ -28,7 +28,7 @@ Monday
   - nmp init -y makes a deflait package.json
   - npm init talks us through
 > async-await and promises
-- commonJS (require)  and ESM (import)
+> commonJS (require)  and ESM (import)
 > fixed Promises to use ESM
 > .js, .mjs etc also package.json
 > the fetch API
@@ -48,7 +48,7 @@ Tuesday
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
 > test-driven development and robust coding
 > ES features
-- Typescript is important...
+> Typescript is important...
   npm install -g tsc // the typescript compiler
   npm install -g ts-node // to 'run' ts files (actually runs the js file)
   also see tsconfig.json
@@ -62,16 +62,15 @@ Naming assets (files. folder, variables, functions)
 Wednesday
 > the event loop
 > Node events
-  fix removeListener
 > Web and webpack
 > Observables see https://rxjs.dev and https://rxmarbles.com/
-- responding to events and handling errors
-- features:
+> responding to events and handling errors
+> features:
   see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
 > Express.js for convenient server-side features
 > Express architecture: server, index, middleware
-- buffers and streams
-- review exercises
+> buffers and streams
+> review exercises
 
 end of course feedback
   https://forms.microsoft.com/e/P7KxaCc4DV
