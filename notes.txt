@@ -55,6 +55,10 @@ Tuesday
   https://typescriptlang.org
 > review exercises
 
+Naming assets (files. folder, variables, functions)
+- letters, numbers, underscore
+- dont start with a digit
+
 Wednesday
 - the run loop
 - Node events

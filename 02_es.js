@@ -12,6 +12,9 @@ var a = 1 // still works
 let b = 2 // modern syntax
 const c = 'immutable'
 
+const n = ()=>{}
+
+
 function A(){
     return a
     let a = 1 // NOT hoisted - a does NOT exist when the return is called
